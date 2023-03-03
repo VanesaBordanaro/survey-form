@@ -1,0 +1,70 @@
+<body>
+
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">THANK YOU ϜOR YOUR TIME!</p>
+  </header>
+
+  <div id="container">
+  <form id="survey-form">
+    <label id="name-label" for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required >
+
+    <label id="email-label" for="email">Email</label>
+    <input type="email" name="email" id="email"  placeholder="Enter your Email" required >
+    <label id="number-label" for="number">Age</label>
+    <input type="number" name="age" id="number" min="10" max="99"  placeholder="Age" >
+
+    <p>If you had a supernatural power, what would it be?</p>
+    <select id="dropdown" name="role"  required>
+      <option value>Select one</option>
+      <option value="invisibility">Invisibility</option>
+      <option value="flying">Flying</option>
+      <option value="speed">Super Speed</option>
+      <option value="telepathy">Telepathy</option>
+      <option value="teletransportation">Teletransportation</option>
+    </select>
+
+    <p>
+      If you could have any superpower with the cost of your family's death,
+      would you take it?
+    </p>
+    <label>
+      <input name="choose" value="definitely" type="radio" >Definitely</label>
+    <label>
+      <input name="choose" value="maybe" type="radio" >Maybe</label>
+
+    <label><input name="choose" value="absolutely-not" type="radio" >Absolutely not</label>
+
+    <p>If you could save ONE family member, who would it be?</p>
+    <select id="like" name="like" required>
+      <option disabled selected value>Select an option</option>
+      <option value="mother">Mother</option>
+      <option value="father">Ϝather</option>
+      <option value="sister">Sister</option>
+      <option value="brother">Brother</option>
+    </select>
+
+    <p>Who is your most favorite Superhero?</p>
+
+    <label><input name="prefer" value="batman" type="checkbox" >Batman</label>
+    <label>
+      <input name="prefer" value="superman" type="checkbox" >Superman</label>
+    <label><input name="prefer" value="hulk" type="checkbox" >Hulk</label>
+    <label><input name="prefer" value="captain" type="checkbox"  >Captain America</label>
+    <label><input name="prefer" value="wolverine" type="checkbox" >Wolverine</label>
+    <label><input name="prefer" value="iron" type="checkbox"  >Iron man</label>
+    <label><input name="prefer" value="thor" type="checkbox"  >Thor</label>
+    <label><input name="prefer" value="spider" type="checkbox"  >Spider man</label>
+    <label><input name="prefer" value="strange" type="checkbox" >Dr strange</label>
+    <label><input name="prefer" value="flash" type="checkbox" >Flash</label>
+    <label><input name="prefer" value="vision" type="checkbox" >Vision</label>
+
+    <p>If you could make a superhero movie, what would it be about?</p>
+    <textarea id="comments" name="comment" placeholder="Enter your idea here..."></textarea>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+  </div>
+  <link rel="stylesheet" href="styles.css">
+</body>

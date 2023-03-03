@@ -1,0 +1,55 @@
+body{
+    background: url(https://static.vecteezy.com/system/resources/previews/002/208/140/original/cartoon-comic-halftone-background-free-vector.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: 2px 1px white;
+}
+#container{
+    width: auto;
+    height: auto;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.384);
+}
+#title{
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-shadow: 10px 5px 5px white;
+}
+#description, p{
+    font-size: 20px;
+    font-style: italic;
+}
+#name, #email, #number, #dropdown, #like{
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#comments{
+    min-height: 120px;
+    width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#submit{
+    margin-left: 25%;
+    margin-top: 10px;
+    display: block;
+    width: 50%;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
